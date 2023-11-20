@@ -1,0 +1,34 @@
+.about{
+
+    &__row{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__col150{
+        width: 48%;
+    }
+
+    &__title{
+        color: #111;
+        font-size: 2rem;
+        font-weight: 300;
+        span{
+            color: #ff0157;
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+    }
+
+    &__imgBx{
+        width: 100%;
+        height: 100%;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
